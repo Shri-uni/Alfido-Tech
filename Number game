@@ -23,13 +23,13 @@ public class Number_game {
             return "Your guess is invalid";
         }
         else if (userAnswer == computerNumber ){
-            return "Correct!\nTotal Guesses: " + count;
+            return "Correct!\nTotal Guess attempt: " + count;
         }
         else if (userAnswer > computerNumber) {
-            return "Your guess is too high, try again.\nTry Number: " + count;
+            return "Your guess is too high, try again.\nAttempt Number: " + count;
         }
         else if (userAnswer < computerNumber) {
-            return "Your guess is too low, try again.\nTry Number: " + count;
+            return "Your guess is too low, try again.\nAttempy Number: " + count;
         }
         else {
             return "Your guess is incorrect\nTry Number: " + count;
